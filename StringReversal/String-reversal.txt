@@ -1,0 +1,34 @@
+# PROBLEM DEFINITION
+# ------------------
+# Reverse each word in the input string.
+# The order of the words will be unchanged.
+# A word is made up of letters and/or numbers.
+# Other characters (spaces, punctuation) will not be reversed.
+#
+# NOTES
+# ------
+# Write production quality code
+# We prefer clarity over performance (though if you can achieve both - great!)
+# You can use the language that best highlights your programming ability
+#    the template below is Python - but you can write
+#    in Java/C++/C#/Haskell/etc if you feel you solve the
+#    problem better in that language.
+# A working solution is preferred (assert in main() should succeed)
+# Bonus points for additional good tests
+
+
+def reverse_each_word(sentence):
+    # TODO: Implement this function
+    pass
+
+
+def main():
+    # TODO: Feel free to re-write as necessary - but keep this test string
+    test_str = "Stri_ng;-%   2b$#e reversed"
+    rev_str = reverse_each_word(test_str)
+    print(rev_str)
+    assert rev_str == "irtS_gn;-%   b2$#e desrever"
+
+
+if __name__ == "__main__":
+    main()
