@@ -1,0 +1,8 @@
+# config.version = Version(
+# major=15,
+# minor=0,
+# point=17,
+# patch=0
+#)
+
+This is a dummy file created to test ModifiedPython.py
